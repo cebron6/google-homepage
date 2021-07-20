@@ -2,13 +2,40 @@
 ul{
   list-style-type: none;
 }
+a{
+  color: #222222; 
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
 #About, #Store{
   float: left;
+  padding: 0px 5px 0px 15px;
+  font: 14px;
+  
+  
 }
 #Gmail, #Images, #Img, #Signbtn{
   float: right;
 }
+/* Sign in btn styles */
+#Signbtn{
+  background-color: #1873E8;
+  margin: 0px 8px;
+  padding: 9px 23px;
+  border-radius: 8px;
+}
+#Signbtn a{
+  color: white;
+}
+#Img{
+  padding: 8px;
+} 
+#Images, #Gmail{
+  padding: 8px 15px;
+}
 /* Google logo styles */
 #googlelogosec{
   clear: both;
+  text-align: center;
+  height: 290px;
 }
