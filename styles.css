@@ -1,0 +1,14 @@
+/* Top NavBar */
+ul{
+  list-style-type: none;
+}
+#About, #Store{
+  float: left;
+}
+#Gmail, #Images, #Img, #Signbtn{
+  float: right;
+}
+/* Google logo styles */
+#googlelogosec{
+  clear: both;
+}
