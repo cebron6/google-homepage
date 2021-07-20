@@ -35,7 +35,12 @@ a{
 }
 /* Google logo styles */
 #googlelogosec{
+  position: relative;
   clear: both;
-  text-align: center;
   height: 290px;
+}
+#googleimg{
+  position: absolute;
+  top: 180px;
+  left: 37%;
 }
